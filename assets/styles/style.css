@@ -1,0 +1,55 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+section {
+  width: 100%;
+}
+
+.score-section {
+  height: 15%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.options {
+  height: 15%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main {
+  height: 70%;
+  display: flex;
+}
+
+.main > div {
+  width: 50vw;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.choice-wrapper {
+  width: 40%;
+  min-height: 30px;
+  margin-left: 5%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.start {
+  margin-right: 5%;
+}
+
+section,
+div {
+  border: solid 1px black;
+}
